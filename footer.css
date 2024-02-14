@@ -1,0 +1,19 @@
+.footer{
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  grid-gap: 5px;
+ 
+}
+.grids a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    font-size: 12px;
+}
+
